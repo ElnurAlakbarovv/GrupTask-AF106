@@ -81,3 +81,23 @@ ul {
 .dropdown-menu li a:hover {
   background-color: #f4f4f4;
 }
+ .main{margin: 0 auto;
+    display: flex;
+    max-width: 1272px;
+    align-items: center;
+    justify-content: space-around;
+    h2{
+        font-size: 72px;
+        max-width: 445px;
+    }
+    p{
+        max-width: 445px;
+    }
+ }
+.btn{
+    border: 1px solid #cdbebe;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 10px;
+    color:burlywood;
+}
