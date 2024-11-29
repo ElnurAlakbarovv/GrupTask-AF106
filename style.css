@@ -82,129 +82,178 @@ ul {
 .dropdown-menu li a:hover {
   background-color: #f4f4f4;
 }
- .main{margin: 0 auto;
-    display: flex;
-    max-width: 1272px;
-    align-items: center;
-    justify-content: space-around;
-    h2{
-        font-size: 72px;
-        max-width: 445px;
-    }
-    p{
-        max-width: 445px;
-    }
- }
-.btn{
-    border: 1px solid #cdbebe;
-    text-shadow: none;
-    box-shadow: none;
-    padding: 10px;
-    color:burlywood;
+.main {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1272px;
+  align-items: center;
+  justify-content: space-around;
+  h2 {
+    font-size: 72px;
+    max-width: 445px;
+  }
+  p {
+    max-width: 445px;
+  }
 }
-
+.btn {
+  border: 1px solid #cdbebe;
+  text-shadow: none;
+  box-shadow: none;
+  padding: 10px;
+  color: burlywood;
+}
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 70px;
-    background-color: rgb(223, 219, 219);
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px;
+  background-color: rgb(223, 219, 219);
 }
 .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);  
-    gap: 20px; 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 .grid a {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 .grid img {
-    max-width: 100%; 
-    height: auto;
-    display: inline-block;
-    transition: transform 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
 }
 .grid img:hover {
-    transform: scale(1.1);  
+  transform: scale(1.1);
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
 }
 .divider {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: center;
-    background-color: #82a6b1;
-    padding: 40px;
-    height: 200px;
-    margin: 0 auto;
-    max-width: 80%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  background-color: #82a6b1;
+  padding: 40px;
+  height: 200px;
+  margin: 0 auto;
+  max-width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
 }
 
 blockquote.aos-animate {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 blockquote q {
-    quotes: "“" "”" "‘" "’";
-    display: block;
-    font-size: 1.5rem;
-    color: #1b1b1b;
-    line-height: 1.6;
+  quotes: "“" "”" "‘" "’";
+  display: block;
+  font-size: 1.5rem;
+  color: #1b1b1b;
+  line-height: 1.6;
 }
-.author-name{
-    color: rgb(134, 4, 4);
+.author-name {
+  color: rgb(134, 4, 4);
 }
 
 footer {
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 30px 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
 footer p {
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
 
 footer .social-links {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 footer .social-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; 
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 footer .social-links ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 footer .social-links ul li a {
-    color: #fff;
-    font-size: 24px; 
-    transition: color 0.3s ease;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: bisque;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
 
+.text {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+.line {
+  width: 318px;
+  height: 1px;
+  background-color: grey;
+}
+.title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: contain;
+  padding: 10px 20px;
+}
+.some {
+  text-align: center;
+  opacity: 0.4;
+}
